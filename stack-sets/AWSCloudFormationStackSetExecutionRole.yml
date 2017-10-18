@@ -28,4 +28,4 @@ Resources:
 Outputs:
   CrossAccountExecutionRole:
     Description: ARN of the role to grant exeuction rights
-    Value: !GetAtt ExecutionRole.Arn 
+    Value: !Ref ExecutionRole
